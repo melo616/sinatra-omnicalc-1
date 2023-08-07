@@ -5,7 +5,7 @@
     APR
   </dt>
   <dd>
-    <%= @apr.to_fs(:percentage) %>
+    <%= @apr.to_fs(:percentage, { :precision => 4 }) %>
   </dd>
   <dt>
     Number of years
